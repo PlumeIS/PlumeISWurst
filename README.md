@@ -1,6 +1,6 @@
 PlumeISWurst
 ============
-### Fork for [wurst](https://github.com/Wurst-Imperium/Wurst7)
+### Fork from [wurst](https://github.com/Wurst-Imperium/Wurst7)
 
 Wurst Client in Forge 1.18.1.
 

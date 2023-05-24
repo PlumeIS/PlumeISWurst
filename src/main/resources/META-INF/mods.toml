@@ -1,0 +1,12 @@
+modLoader = "javafml"
+loaderVersion = "[35,)"
+license = "GPL-3.0-or-later"
+
+[[mods]]
+modId = "wurst"
+version = "${version}"
+displayName = "Wurst"
+description = '''
+Wurst Wurst Wurst!
+'''
+authors="PlumeIS"

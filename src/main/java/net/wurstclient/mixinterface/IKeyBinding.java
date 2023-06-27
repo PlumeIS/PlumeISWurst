@@ -10,4 +10,6 @@ package net.wurstclient.mixinterface;
 public interface IKeyBinding
 {
 	public boolean isActallyPressed();
+
+	public void resetPressedState();
 }

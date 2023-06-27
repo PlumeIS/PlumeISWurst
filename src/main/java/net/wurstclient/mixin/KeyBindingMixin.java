@@ -20,12 +20,21 @@ public class KeyBindingMixin implements IKeyBinding
 {
 	@Shadow
 	private InputUtil.Key boundKey;
-	
+	@Override
+	public void resetPressedState()
+	{
+		setPressed(isActallyPressed());
+	}
 	@Override
 	public boolean isActallyPressed()
 	{
 		long handle = WurstClient.MC.getWindow().getHandle();
 		int code = boundKey.getCode();
 		return InputUtil.isKeyPressed(handle, code);
+	}
+
+	@Shadow
+	public void setPressed(boolean pressed) {
+
 	}
 }
